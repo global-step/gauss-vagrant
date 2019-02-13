@@ -1,8 +1,10 @@
-### Install vagrant
+### 1. Install vagrant
 
 https://www.vagrantup.com/docs/installation/
 
-### Set up vagrant vm
+*You may need virtualbox
+
+### 2. Set up vagrant vm
 
 ```
 $ git clone git@github.com:global-step/gauss-vagrant.git
@@ -10,7 +12,7 @@ $ cd gauss-vagrant
 $ vagrant up
 ```
 
-### Set up Gauss app
+### 3. Set up Gauss app
 
 ```
 $ vagrant ssh
@@ -24,7 +26,7 @@ $ bundle exec rake db:migrate
 $ bundle exec rake db:seed
 ```
 
-### 1. Run Gauss app (devlopment env)
+### 4. Run Gauss app (devlopment env)
 
 ```
 # run elasticsearch
