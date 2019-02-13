@@ -6,6 +6,8 @@ https://www.vagrantup.com/docs/installation/
 
 ### 2. Set up vagrant vm
 
+This step takes time.. 
+
 ```
 $ git clone git@github.com:global-step/gauss-vagrant.git
 $ cd gauss-vagrant
