@@ -19,6 +19,7 @@ $ vagrant up
 ```
 $ vagrant ssh
 $ # copy your ssh keys, like id_rsa
+$ cd /vargant # or whereever you have access from host OS
 $ git clone git@github.com:global-step/Gauss.git
 $ cd Gauss
 $ gem uninstall did_you_mean
